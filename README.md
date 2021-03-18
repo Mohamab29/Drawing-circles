@@ -32,7 +32,7 @@
 
 ## :dart: About ##
 
-In this project we did a task in my full-stack course and the task was to make a simple website where we can input a radios of a circle then we calculate it's volume and draw it on the HTML canvas .
+In this project we did a task in my full-stack course and the task was to make a simple website where we can input a radius of a circle then we calculate it's volume and draw it on the HTML canvas .
 
 
 ## :sparkles: Features ##
