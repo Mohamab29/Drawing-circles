@@ -27,13 +27,6 @@
 
 <hr> -->
 
-<p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/Mohamab29" target="_blank">Author</a>
-</p>
 
 <br>
 
@@ -65,6 +58,9 @@ $ cd draw-circle
 ## :memo: License ##
 
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+
+
+
 
 
 Made with :heart: by <a href="https://github.com/Mohamab29" target="_blank">Mohamed Nedal Abomokh</a>
