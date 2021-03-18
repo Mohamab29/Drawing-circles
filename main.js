@@ -85,7 +85,7 @@ function drawCircles() {
         context.strokeStyle = "blue";
         context.arc(canvasWidth / 2, canvasHeight / 2, inx, 0, 2 * Math.PI);
         context.stroke();
-    }, 100);
+    }, 10);
 
 }
 
