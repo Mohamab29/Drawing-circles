@@ -1,3 +1,6 @@
+
+<h1 align="center">Draw Circle</h1>
+
 <div align="center" id="top"> 
   <img src="https://github.com/Mohamab29/Drawing-circles/blob/main/assests/images/webpage.png" alt="Draw Circle" height="600px" width="900px" />
 
@@ -6,14 +9,11 @@
   <!-- <a href="https://drawcircle.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Draw Circle</h1>
-
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Mohamab29/Drawing-circles?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/Mohamab29/Drawing-circles?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Mohamab29/Drawing-circles?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/badge/license-CC0-blue?color=56BEB8">
 
