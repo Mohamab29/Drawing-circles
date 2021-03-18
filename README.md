@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="assets/images/webpage.png" alt="Draw Circle" />
+  <img src="https://github.com/Mohamab29/Drawing-circles/blob/main/assests/images/webpage.png" alt="Draw Circle" height="600px" width="900px" />
 
   &#xa0;
 
@@ -15,7 +15,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/Mohamab29/Drawing-circles?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/Mohamab29/Drawing-circles?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/badge/license-CC0?color=56BEB8">
 
 </p>
 
