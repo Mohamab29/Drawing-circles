@@ -1,0 +1,26 @@
+form{
+    padding: 50px;
+    display: inline-block;
+}
+#inputRadius,#sphereVolume{
+    width:200px;
+}
+.page-container{
+    display: grid;
+    grid-template-columns:  3fr 2fr;
+}
+.canvas-container{
+
+    /* display: flex; */
+    margin: 50px;
+    margin-left: 100px;
+}
+#myCanvas{
+    margin-top: 20px;
+
+    border:1px solid black;
+}
+#clearBtn{
+ 
+    width: 600px;  
+}
