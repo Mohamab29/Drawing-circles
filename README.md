@@ -61,8 +61,6 @@ This project is under license from MIT. For more details, see the [LICENSE](LICE
 
 
 
-
-
 Made with :heart: by <a href="https://github.com/Mohamab29" target="_blank">Mohamed Nedal Abomokh</a>
 
 &#xa0;

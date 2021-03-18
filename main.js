@@ -45,19 +45,20 @@ function showVolume() {
 function drawOnCanvas(radius) {
 
     const myCanvas = document.getElementById("myCanvas").getContext("2d");
-    const canvasWidth = document.getElementById("myCanvas").width;
-    const canvasHeight = document.getElementById("myCanvas").height;
+    const canvasWidth = document.getElementById("myCanvas").width / 2; // taking the half of height because a radios can't be bigger than this because 
+    // the borders of the circle will be out of the canvas
+    const canvasHeight = document.getElementById("myCanvas").height / 2;
 
     const radius_int = parseInt(radius);
-    if (radius > canvasHeight / 2) {
-        alert("the radios needs to be smaller than " + canvasHeight / 2);
+    if (radius_int > canvasHeight) {
+        alert("the radios needs to be smaller than " + canvasHeight);
         document.getElementById("inputRadius").value = "";
         document.getElementById("sphereVolume").innerText = "Sphere Volume";
         return true;
     }
     myCanvas.beginPath();
     myCanvas.strokeStyle = "blue";
-    myCanvas.arc(canvasWidth / 2, canvasHeight / 2, radius_int, 0, 2 * Math.PI);
+    myCanvas.arc(canvasWidth, canvasHeight, radius_int, 0, 2 * Math.PI);
     myCanvas.stroke();
 
 }
@@ -70,20 +71,20 @@ function clearCanvas() {
 
 function drawCircles() {
     const myCanvas = document.getElementById("myCanvas");
-    const canvasWidth = myCanvas.width;
-    const canvasHeight = myCanvas.height;
+    const canvasWidth = myCanvas.width / 2;
+    const canvasHeight = myCanvas.height / 2;
 
     const context = myCanvas.getContext('2d');
 
     let inx = 0;
     let counter = setInterval(() => {
         inx++;
-        if (inx > canvasHeight / 2) {
+        if (inx > canvasHeight) {
             clearInterval(counter);
         }
         context.beginPath();
         context.strokeStyle = "blue";
-        context.arc(canvasWidth / 2, canvasHeight / 2, inx, 0, 2 * Math.PI);
+        context.arc(canvasWidth, canvasHeight, inx, 0, 2 * Math.PI);
         context.stroke();
     }, 10);
 
