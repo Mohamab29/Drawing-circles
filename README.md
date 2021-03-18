@@ -1,7 +1,7 @@
 
-<h1 align="center">Draw Circle</h1>
+<h1 align="center" id="top">Draw Circle</h1>
 
-<div align="center" id="top"> 
+<div align="center"> 
   <img src="https://github.com/Mohamab29/Drawing-circles/blob/main/assests/images/webpage.png" alt="Draw Circle" height="600px" width="900px" />
 
   &#xa0;
@@ -44,8 +44,8 @@ In this project we did a task in my full-stack course and the task was to make a
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Drawing a circle if given a positive integer on a canvas;\ 
-:heavy_check_mark: Calculating volume of a sphere;\
+:heavy_check_mark: Drawing a circle if given a positive integer on a canvas; \
+:heavy_check_mark: Calculating volume of a sphere; \
 :heavy_check_mark: When the page loads I draw on the canvas automatically a circle each 10 milliseconds;
 
 
